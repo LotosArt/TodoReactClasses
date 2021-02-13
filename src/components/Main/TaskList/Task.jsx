@@ -30,4 +30,4 @@ class Task extends Component {
   }
 }
 
-export default Task;
+export default React.memo(Task);
